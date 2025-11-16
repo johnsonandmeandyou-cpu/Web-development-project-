@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnson Singha - Online Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5%;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .header nav ul li {
+            margin-left: 20px;
+        }
+        .header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero-section {
+            background-color: #333;
+            color: #fff;
+            padding: 80px 5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .hero-content {
+            flex: 1;
+            min-width: 300px;
+            text-align: left;
+            margin-right: 30px;
+        }
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .hero-content .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .profile-picture-placeholder {
+            width: 200px; /* Adjust size as needed */
+            height: 200px; /* Adjust size as needed */
+            background-color: #555; /* Placeholder color */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #ccc;
+            border: 3px solid #007bff;
+            overflow: hidden; /* Ensures image fits within circle */
+        }
+        .profile-picture-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .about-section {
+            padding: 60px 5%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column; /* Stacks items vertically */
+            align-items: center; /* Centers content horizontally */
+            text-align: center; /* Centers text within the section */
+        }
+        .about-content {
+            max-width: 800px; /* Constrain width for readability */
+            width: 100%;
+        }
+        .about-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            line-height: 1.7;
+            margin-bottom: 15px;
+            text-align: left; /* Keep paragraphs left-aligned for better reading */
+        }
+        .about-content .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-content {
+                margin-right: 0;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            .profile-picture-placeholder {
+                margin-top: 30px;
+            }
+            .about-content {
+                text-align: center;
+            }
+            .about-content p {
+                 text-align: center; /* Center text on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Online Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#skill">SKILL</a></li>
+                <li><a href="#testimonial">TESTIMONIAL</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <p>Just another My Blog site</p>
+            <h1>JOHNSON SINGHA</h1>
+            <p>Hi, I am a Professional Developer and ICT Degree holder. I have five year's experience in IT Sector as an ICT Lecturer, I'd like...</p>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+        <div class="profile-picture-placeholder">
+    <img src="https://uploads.onecompiler.io/444t2z7vv/444tk3sxn/profile.png.jpg" alt="Johnson Singha Profile Picture">
+</div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>ABOUT ME</h2>
+            <p>I am Developer holds expertise with industry know-how to guide your next property development.</p>
+            <p>Software Developers use software development languages and tools to write, edit, maintain, and test computer programs. This field encompasses diverse applications, from operating systems and mobile applications to web applications and video games, in addition to creating new tools to solve specific problems and optimizing existing applications. Software developers are also responsible for designing and implementing new systems.</p>
+            <a href="#" class="btn">DOWNLOAD RESUME</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Contact: johnsonsingha73@gmail.com</p>
+    </footer>
+
+</body>
+</html>
